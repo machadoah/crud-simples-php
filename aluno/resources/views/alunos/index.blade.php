@@ -21,5 +21,11 @@
             @endforeach
         </tbody>
     </table>
+
+    {{ $alunos->links() }}
+    
+
+<br>
+
     <a href="/alunos/create">New</a>
 @endsection
